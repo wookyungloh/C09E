@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 header {
@@ -29,20 +30,23 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 10px;
+    margin: 15px 0; /* 한 줄씩 표시될 수 있도록 여백을 더 줍니다 */
 }
 
 nav ul li a {
-    background-color: #0099ff;
+    display: block;
+    background-color: #003366; /* 진한 파란색 */
     color: white;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 5px;
     text-decoration: none;
+    font-size: 1.5rem; /* 글씨 크기 1.5배 증가 */
+    width: 80%; /* 가로 길이를 맞춤 */
+    margin: 0 auto; /* 가운데 정렬 */
 }
 
 nav ul li a:hover {
-    background-color: #0077cc;
+    background-color: #002244; /* 진한 파랑색 hover 시 색상 */
 }
 
 #content .hidden {
